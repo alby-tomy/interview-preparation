@@ -5,12 +5,12 @@ print(listMov)
 print(listMov.pop(4))
 
 #inserting element at 4th index
-listMov.insert(4,"Harry Potter")
+listMov.insert(3,"Harry Potter")
 
 print(listMov)
 
 #printing 4th element
-print(listMov[4])
+print(listMov[3])
 
 #appending another value to the list
 listMov.append("Classmates")
