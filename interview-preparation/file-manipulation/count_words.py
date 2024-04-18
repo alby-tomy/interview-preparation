@@ -10,6 +10,6 @@ def count_words(filename):
 
     return count
 
-filename = "/home/spi_web/EXTRA/interview-prep-PYTHON/JourneyWith_Python/interview-preparation/file-manipulation/story.txt"
+filename = "JourneyWith_Python/interview-preparation/file-manipulation/story.txt"
 count_words_e = count_words(filename)
 print(f"Number of lines end with 'e': {count_words_e}")

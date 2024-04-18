@@ -8,6 +8,6 @@ def count_words(filename):
 
     return total_words
 
-filename = "/home/spi_web/EXTRA/interview-prep-PYTHON/JourneyWith_Python/interview-preparation/file-manipulation/story.txt"
+filename = "JourneyWith_Python/interview-preparation/file-manipulation/story.txt"
 count_words_t = count_words(filename)
 print(f"Number of words: {count_words_t}")
