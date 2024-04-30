@@ -29,7 +29,7 @@ class Engineer(Employee):
     
 class Salesperson(Employee):
     def __init__(self, name, salary, commission):
-        super().__init__(name, salary)
+        super().__init__(name, salary)  
         self.commission = commission
         
     def cal_salary(self):

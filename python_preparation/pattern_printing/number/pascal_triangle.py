@@ -1,15 +1,15 @@
-def generate_pascals_triangle(rows):
-    triangle = []
+def calculate_binomial_coefficient(n, k):
+    if k == 0 or k == n:
+        return 1
+    return calculate_binomial_coefficient(n - 1, k - 1) + calculate_binomial_coefficient(n - 1, k)
+
+def print_pascals_triangle(rows):
     for i in range(rows):
-        row = [None] * (i + 1)
-        row[0], row[-1] = 1, 1  # Set the first and last elements of the row to 1
-        for j in range(1, len(row) - 1):
-            row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
-        triangle.append(row)
-    return triangle
+        # for j in range(rows - i - 1):
+        #     print(" ", end=" ")
+        for j in range(i + 1):
+            print(calculate_binomial_coefficient(i, j), end=" ")
+        print()
 
 # Example usage:
-rows = 5
-pascals_triangle = generate_pascals_triangle(rows)
-for row in pascals_triangle:
-    print(" ".join(map(str, row)))
+print_pascals_triangle(5)
