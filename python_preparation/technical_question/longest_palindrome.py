@@ -23,3 +23,6 @@ class Solution:
             left -= 1
             right += 1
         return s[left + 1:right], right - left - 1
+    
+sol = Solution()
+print(sol.longestPalindrome("abadab"))

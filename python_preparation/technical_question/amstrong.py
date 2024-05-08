@@ -1,13 +1,15 @@
-num = int(input("Enter a number: "))
-# Input: 407
-sum = 0
-temp = num
-while temp > 0:
-   digit = temp % 10
-   sum += digit ** 3
-   temp //= 10
-if num == sum:
-   print(num,"is an Armstrong number")
-else:
-   print(num,"is not an Armstrong number")
-# Output: 407 is an Armstrong number
+def amstrong(number: int):
+   s = str(number)
+   while len(s) < 1:
+      return 0
+   
+   total = 0
+   
+   for i in s:
+      total = total + int(i) ** len(s)
+   if total == number:
+      return ("Its Amstrong")
+   else:
+      return ("Not an Amstrong")
+      
+print(amstrong(259))
