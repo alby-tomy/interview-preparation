@@ -14,6 +14,4 @@ for i in my_set:
         
         union = my_set.union(set2)
         print(union)
-    print(set2)
-        
-        
+        print(set2)
