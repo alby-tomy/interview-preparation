@@ -38,14 +38,14 @@ print(my_tuple[0]) #accessing elements
 
 
 # basic program
-# factorial of fiven number
+# factorial of given number
 
-def factorial(n):
+def get_factorial(n):
     if n==0 or n==1:
         return 1
     else:
-        return (n*factorial(n-1))   #here used recursive function
-print(factorial(10))
+        return (n*get_factorial(n-1))   # here used recursively calling the function
+print(get_factorial(10))
 
 
 
