@@ -44,7 +44,7 @@ def get_factorial(n):
     if n==0 or n==1:
         return 1
     else:
-        return (n*get_factorial(n-1))   # here used recursively calling the function
+        return (n*get_factorial(n-1))   # here continuously calling the function that we created [recursive method : calling function itself]
 print(get_factorial(10))
 
 
@@ -112,3 +112,49 @@ a = a+b
 b = a-b
 a = a-b
 print("method 2 :",a,b)
+
+
+
+# Basic of ops
+# concepts of oops
+# feature of oops
+"""
+    what is polymorphism ? : Polymorphism is a fundamental concept in object-oriented programming that allows objects of different types 
+                            to be treated as if they were of the same type. It enables you to write code that can work with objects of 
+                            various classes in a uniform way.
+                            
+                             
+                            
+    abstraction : Abstraction is a fundamental concept in object-oriented programming that allows you to focus on the essential features
+                of an object while hiding the unnecessary details. It simplifies complex systems by providing a higher-level view. 
+                
+                
+    
+    enscapsulation :bundling data (attributes) and methods (functions) that operate on that data within a single unit, typically a class. This helps protect the data from 
+                    unauthorized access or modification.
+                    
+                    
+                    
+    Inheritance : allows you to create new classes (subclasses) based on existing classes (superclasses). Subclasses inherit the properties and methods of their superclass, 
+                    providing a mechanism for code reuse and creating specialized objects.
+                    
+                    
+    
+    why python is dynamic? ans : because it can identify the datatypes even without assigning it like a=5
+                                    in short AUTOMATIC TYPE IDENTIFICATION, INTERPRETED LANGUAGE 
+                                    Python is an interpreted language, which means that the code is executed line by line.
+                                    This allows for more flexibility in terms of data types, as the interpreter can handle type conversions and checks at runtime.
+    
+    
+    
+    what is decarator? : A decorator in Python is a function that takes another function as an argument and returns a new function. 
+                        It's a way to modify or enhance the behavior of existing functions without directly altering their code.
+                        starts using double underscore __
+                        
+                        
+    what are magic functions? : functions starts and ends with double underscore eg:__init__, __add__
+    
+    
+    What is a constructor ? : A constructor is a special method in object-oriented programming that is automatically called when an object of a class is created. 
+                            Its primary purpose is to initialize the object's attributes or properties.
+    """
