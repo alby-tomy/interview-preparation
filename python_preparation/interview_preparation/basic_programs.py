@@ -157,4 +157,8 @@ print("method 2 :",a,b)
     
     What is a constructor ? : A constructor is a special method in object-oriented programming that is automatically called when an object of a class is created. 
                             Its primary purpose is to initialize the object's attributes or properties.
+                            
+    What kind of datatypes can be used as keys in dictionary ? ans : Immutable datatypes example string, tuple, int, float
+    
+    Why string is immutable? : Strings in Python are immutable for several important reasons, primarily related to performance, security, and memory management.
     """
