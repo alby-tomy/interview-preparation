@@ -161,4 +161,20 @@ print("method 2 :",a,b)
     What kind of datatypes can be used as keys in dictionary ? ans : Immutable datatypes example string, tuple, int, float
     
     Why string is immutable? : Strings in Python are immutable for several important reasons, primarily related to performance, security, and memory management.
+    
+    Mjaor difficulties that u faced during your previous project how did you overcome that
+    
+    Have done any project? Explain the project
+    
+    
+    
+    
+    # HR common queation
+    * ur strength and weakness
+    * qualities for a team member
+    * if a team member is not able to complete the task in on time, but you want to complete the project on time what will you do....
+    * how can you see yourself after 5 years
+    * how can you rate yourself in python...
+    
+    
     """
