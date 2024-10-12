@@ -149,7 +149,7 @@ print("method 2 :",a,b)
     
     what is decarator? : A decorator in Python is a function that takes another function as an argument and returns a new function. 
                         It's a way to modify or enhance the behavior of existing functions without directly altering their code.
-                        starts using double underscore __
+                        we will call the decaartor function using '@' before the function which need to be modified or run after something
                         
                         
     what are magic functions? : functions starts and ends with double underscore eg:__init__, __add__
